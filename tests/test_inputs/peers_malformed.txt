@@ -1,0 +1,5 @@
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*216.239.35.0    .GOOG.           1 u   64   64  377    1.234   -0.123
++incomplete-line .POOL.          16 p    -   64
+malformed line without proper spacing

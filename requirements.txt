@@ -1,0 +1,17 @@
+# NTP Service Metrics Exporter - Python Dependencies
+#
+# This script uses only Python standard library modules.
+# No external dependencies are required for core functionality.
+#
+# Optional dependencies for enhanced features:
+# - PyYAML: For YAML validation in tests (optional, fallback available)
+#
+# To install optional dependencies:
+# pip3 install -r requirements.txt
+#
+# For development and testing:
+# pip3 install -r requirements.txt
+
+# Optional YAML library for enhanced validation
+# The script works without this - it has a built-in YAML emitter
+PyYAML>=6.0

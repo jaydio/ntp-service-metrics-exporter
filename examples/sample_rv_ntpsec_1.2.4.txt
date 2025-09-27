@@ -1,0 +1,1 @@
+associd=0 status=0615 leap=00, sync=4, clock=3, refid=GPS, stratum=1, rootdelay=0.000, rootdisp=0.001, reftime=0xe6c5a8b2.8f5c28f6, clock=0xe6c5a8c2.8f5c28f6, peer=12345, tc=4, mintc=3, offset=0.123, frequency=-15.123, sys_jitter=0.456, clk_jitter=0.789, clk_wander=0.012

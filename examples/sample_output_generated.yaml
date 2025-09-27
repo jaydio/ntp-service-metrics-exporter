@@ -1,0 +1,5 @@
+# Sample NTP Exporter Output
+# Generated from test fixtures on 2025-09-27T03:12:33Z
+
+# This demonstrates the YAML schema structure
+# In a real scenario, this would query actual NTP servers

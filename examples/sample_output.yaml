@@ -1,0 +1,71 @@
+- target: "162.159.200.123"
+  resolved_ip: "162.159.200.123"
+  collected_at_utc: "2025-01-15T10:30:45Z"
+  success: true
+  error: null
+  server:
+    reference_id: "GPS"
+    stratum: 1
+    reftime_utc: "2025-01-15T10:30:42Z"
+    system_time: "0xe6c5a8c2.8f5c28f6"
+    last_offset: 0.123
+    rms_offset: null
+    frequency: -15.123
+    residual_frequency: null
+    skew: null
+    root_delay: 0.000
+    root_dispersion: 0.001
+    update_interval: 4
+    leap_status:
+      code: "00"
+      meaning: "none"
+    source_state: null
+  peers:
+    - name_or_ip: "time1.google.com"
+      refid: ".GOOG."
+      source_stratum: 1
+      type: "u"
+      poll_interval: 64
+      reachability: 255
+      last_sample_when: 64
+      offset: -0.123
+      delay: 1.234
+      jitter: 0.456
+      selected_marker: "*"
+    - name_or_ip: "time2.google.com"
+      refid: ".GOOG."
+      source_stratum: 1
+      type: "u"
+      poll_interval: 64
+      reachability: 255
+      last_sample_when: 32
+      offset: 0.234
+      delay: 2.345
+      jitter: 0.567
+      selected_marker: "+"
+- target: "192.168.1.100"
+  resolved_ip: "192.168.1.100"
+  collected_at_utc: "2025-01-15T10:30:45Z"
+  success: false
+  error:
+    kind: "timeout"
+    message: "Connection timeout"
+    detail: "ntpq command timed out after 5 seconds"
+  server:
+    reference_id: null
+    stratum: null
+    reftime_utc: null
+    system_time: null
+    last_offset: null
+    rms_offset: null
+    frequency: null
+    residual_frequency: null
+    skew: null
+    root_delay: null
+    root_dispersion: null
+    update_interval: null
+    leap_status:
+      code: null
+      meaning: null
+    source_state: null
+  peers: []

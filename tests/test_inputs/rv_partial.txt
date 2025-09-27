@@ -1,0 +1,1 @@
+associd=0 status=0615 leap=00, sync=4, refid=GPS, stratum=1, rootdelay=0.000
