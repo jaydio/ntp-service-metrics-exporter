@@ -6,7 +6,7 @@
 
 **Core Features:**
 - **IP-Only Operation**: Strict IP address validation with no hostname resolution
-- **Dual Implementation**: Python (`ntp_exporter.py`) and Bash (`ntp_exporter.sh`) versions
+- **Python Implementation**: Single Python script (`ntp_exporter.py`) with comprehensive functionality
 - **IPv4/IPv6 Support**: Complete support for both IP versions with filtering options (`-4`, `-6`)
 - **Mode-6 Detection**: Automatic detection and graceful fallback for NTP Mode-6 queries
 - **Structured Output**: YAML (default) and JSON formats with identical data structure
